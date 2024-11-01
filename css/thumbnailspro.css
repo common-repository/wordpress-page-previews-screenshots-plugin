@@ -1,0 +1,42 @@
+#fdImageThumb {
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	/* width: 243px; */
+	/* height: 195px; */
+	overflow:hidden;
+	background: none;
+	border: 1px solid #A9A9A9;
+	z-index: 99;
+}
+
+#fdImageThumb img {
+	z-index:999;
+}
+
+.tnp-url-field {
+	width: 40%;
+}
+
+.tnp-url-field label:before {
+	position: relative;
+	top: 5px;
+	fill: #336699;
+	color: #336699;
+	padding-right:5px;                                
+  content:  url('tnp.svg');
+}   
+
+.tnp-url-field label:before svg {
+	fill: #336699;
+}   
+
+.editor-block-list-item-tnp-page-previews-block .editor-block-icon.has-colors svg {
+	fill: #336699;
+}
+
+.tnp-dashicons {
+	fill: #336699;
+}
+	                                  
